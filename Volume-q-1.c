@@ -9,7 +9,6 @@ struct distance
 
 main()
 {
-	
 	struct distance d;
 	printf("Enter Distance:-\n");
 	printf("Distance in feet=");
