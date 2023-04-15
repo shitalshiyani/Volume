@@ -29,13 +29,13 @@ main()
 		printf("Enter Physics Marks=");
 		scanf("%d",&s[i].phy_marks);
 	}
-	printf("\n........................");
+	printf("\n............................");
 	for (i=0;i<5;i++)
 	{
 		s[i].percentage = ((s[i].chem_marks + s[i].maths_marks + s[i].phy_marks)*100)/300;
         
 		printf("\nroll_no=%d\nName=%s\nchem_marks=%d\nmaths_marks=%d\nphy_marks=%d\n",s[i].roll_no,s[i].name,s[i].chem_marks,s[i].maths_marks,s[i].phy_marks);
-        printf("Percentage=%.2f",s[i].percentage);
+                printf("Percentage=%.2f",s[i].percentage);
 	}
 	
 	
